@@ -2,6 +2,9 @@ import React from "react";
 import Navbar from "./sections/Navbar";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
+import Projects from "./sections/Projects";
+import Experiences from "./sections/Experiences";
+import Contact from "./sections/Contact";
 
 const App = () => {
   return (
@@ -9,9 +12,9 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
-      <section className="min-h-screen"></section>
-      <section className="min-h-screen"></section>
-      <section className="min-h-screen"></section>
+      <Projects />
+      <Experiences />
+      <Contact />
       <section className="min-h-screen"></section>
       <section className="min-h-screen"></section>
     </div>
