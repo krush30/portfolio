@@ -17,9 +17,10 @@ export const myProjects = [
         tags: [
             {
                 id: 1,
-                name: "React",
-                path: "/assets/logos/React-js.png",
+                name: "Nestjs",
+                path: "/assets/logos/nestjs.png",
             },
+
             {
                 id: 2,
                 name: "MongoDB",
@@ -37,15 +38,14 @@ export const myProjects = [
             },
             {
                 id: 5,
-                name: "Tailwindcss",
+                name: "",
                 path: "/assets/logos/Tailwind-CSS.png",
             },
             {
                 id: 6,
-                name: "Nestjs",
-                path: "/assets/logos/nestjs.png",
+                name: "",
+                path: "/assets/logos/React-js.png",
             },
-
         ],
     },
     {
@@ -85,12 +85,12 @@ export const myProjects = [
             },
             {
                 id: 5,
-                name: "Nodejs",
+                name: "",
                 path: "/assets/logos/nodejs-img.png",
             },
             {
                 id: 6,
-                name: "Express",
+                name: "",
                 path: "/assets/logos/Express-js.png",
             },
 
@@ -171,7 +171,7 @@ export const myProjects = [
             },
             {
                 id: 5,
-                name: "Express",
+                name: "",
                 path: "/assets/logos/Express-js.png",
             },
 
@@ -219,12 +219,12 @@ export const mySocials = [
     },
     {
         name: "Linkedin",
-        href: "https://www.linkedin.com/in/ali-sanati/",
+        href: "https://www.linkedin.com/in/krushna-ingale-8b0696254/",
         icon: "/assets/socials/linkedIn.svg",
     },
     {
         name: "Instagram",
-        href: "https://www.instagram.com/ali.sanatidev/reels/",
+        href: "https://www.instagram.com/kishu_ingle_/",
         icon: "/assets/socials/instagram.svg",
     },
 ];
