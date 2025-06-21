@@ -1,0 +1,22 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <radialGradient id="planetDark" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2e2a58"></stop>
+      <stop offset="100%" stop-color="#1a103d"></stop>
+    </radialGradient>
+    <linearGradient id="orbitGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ffe0" stop-opacity="0.5"></stop>
+      <stop offset="100%" stop-color="#8a2be2" stop-opacity="0.5"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Planet -->
+  <circle cx="60" cy="60" r="30" fill="url(#planetDark)" stroke="#4b0082" stroke-width="1"></circle>
+
+  <!-- Orbit Rings -->
+  <ellipse cx="60" cy="60" rx="50" ry="18" stroke="url(#orbitGlow)" stroke-width="1.2" fill="none" transform="rotate(-20 60 60)"></ellipse>
+  <ellipse cx="60" cy="60" rx="40" ry="14" stroke="url(#orbitGlow)" stroke-width="1" fill="none" transform="rotate(25 60 60)"></ellipse>
+
+  <!-- Small orbiting moon -->
+  <circle cx="95" cy="40" r="4" fill="#00ffe0" stroke="#222" stroke-width="1"></circle>
+</svg>
