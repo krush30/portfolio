@@ -1,4 +1,3 @@
-import { img } from "motion/react-client";
 import React from "react";
 import { motion } from "motion/react";
 
@@ -27,19 +26,16 @@ const ProjectDetailModal = ({
           className="absolute p-2 rounded-sm top-5
         right-5 bg-midnight hover:bg-gray-500"
         >
-          <img src="assets/close.svg" className="w-6 h-6" alt="" />
+          <img src="assets/close.svg" className="w-6 h-6" alt="Close modal" />
         </button>
-        <img
-          src={image}
-          alt={title}
-          className="w-full
-        rounded-t-2xl"
-        />
+        <img src={image} alt={title} className="w-full rounded-t-2xl" />
         <div className="p-5">
           <h5 className="mb-2 text-2xl font-bold text-white">{title}</h5>
           <p className="mb-3 font-normal text-neutral-400">{description}</p>
           {subDescription.map((subDesc, index) => (
-            <p className="mb-3 font-normal text-neutral-400">{subDesc}</p>
+            <p key={index} className="mb-3 font-normal text-neutral-400">
+              {subDesc}
+            </p>
           ))}
           <div className="flex items-center justify-between mt-4">
             <div className="flex gap-3">
@@ -52,19 +48,17 @@ const ProjectDetailModal = ({
                 />
               ))}
             </div>
-            <a
-              href=""
-              className="inline-flex items-center gap-1 
-              font-medium hover-animation cursor-pointer"
-            >
-              View Project
-              <img
-                src="assets/arrow-up.svg"
+            {href && (
+              <a
                 href={href}
-                className="size-4 "
-                alt=""
-              />
-            </a>
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 font-medium hover-animation cursor-pointer text-white"
+              >
+                View Project
+                <img src="assets/arrow-up.svg" className="size-4" alt="Arrow" />
+              </a>
+            )}
           </div>
         </div>
       </motion.div>

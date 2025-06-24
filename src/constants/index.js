@@ -11,7 +11,7 @@ export const myProjects = [
 
 
         ],
-        href: "",
+        href: "https://github.com/krush30/HotelBooking-backend",
         logo: "",
         image: "/assets/projects/hotel-booking.png",
         tags: [
@@ -59,7 +59,7 @@ export const myProjects = [
             "Used JWT authentication to manage and secure user data"
 
         ],
-        href: "",
+        href: "https://github.com/krush30/Devconnector",
         logo: "",
         image: "/assets/projects/Dev.png",
         tags: [
@@ -107,7 +107,7 @@ export const myProjects = [
             "Implemented Firebase authentication for secure user login and personalized access"
             ,
         ],
-        href: "",
+        href: "https://netflix-app-ten-tau.vercel.app/",
         logo: "",
         image: "/assets/projects/Netfli-gpt.png",
         tags: [
@@ -145,7 +145,7 @@ export const myProjects = [
 
             ,
         ],
-        href: "",
+        href: "https://github.com/krush30/AI-Search-Tool-Backend",
         logo: "",
         image: "/assets/projects/ai-searcher.png",
         tags: [
@@ -188,7 +188,7 @@ export const myProjects = [
             "Utilized IndexedDB to store quiz data locally, enabling offline access and progress saving"
             ,
         ],
-        href: "",
+        href: "https://interactive-quiz-platform-lemon.vercel.app/",
         logo: "",
         image: "/assets/projects/interactive-quiz.png",
         tags: [
